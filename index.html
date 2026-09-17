@@ -11,16 +11,24 @@
 <main>
   <header>
     <h1>Daily Encouragement Messages</h1>
-    <p class="sub">A small, private SMS program operated by John Lasak.</p>
+    <p class="sub">An automated subscription SMS service operated by John Lasak.</p>
   </header>
 
-  <h2>What this program is</h2>
+  <h2>About this service</h2>
   <p>
-    Daily Encouragement Messages is a personal, non-commercial text message program.
-    It sends three short encouragement messages per day to a small number of
-    enrolled family members who have asked to receive them. Each message contains a
-    quotation, a brief grounding suggestion, or a short reflective question. The
-    program sells nothing, advertises nothing, and contains no links.
+    Daily Encouragement Messages is an automated subscription SMS service.
+    Scheduling software composes message sets in advance and delivers them
+    automatically to subscribers who have opted in by SMS keyword. Each
+    subscriber receives three short wellbeing messages per day: a motivational or
+    philosophical quotation, a brief grounding suggestion, and an end-of-day
+    reflection prompt.
+  </p>
+  <p>
+    This is one-way informational content, not conversational messaging. Messages
+    are generated and dispatched by the scheduling system rather than typed by an
+    individual, and inbound replies are handled only by automated HELP and STOP
+    keyword processing. The service sells nothing and advertises nothing, and
+    messages contain no links or embedded phone numbers.
   </p>
 
   <h2>How to subscribe</h2>
@@ -58,11 +66,14 @@
     </p>
   </div>
 
-  <h2>An automated program</h2>
+  <h2>How messages are generated and sent</h2>
   <p>
-    Messages are composed in advance and delivered automatically on a schedule. They
-    are not written and sent live by a person at the moment of delivery, and no one
-    monitors replies in real time. Recipients are told this before enrolling.
+    Message sets are authored in advance and stored as structured content. A
+    scheduling application queues each message against the subscriber's local
+    time zone and submits it to the Twilio messaging API for automated delivery
+    at the scheduled hour. No message is composed, addressed, or sent manually at
+    the time of delivery, and no inbound replies are read by a person; HELP and
+    STOP are processed automatically.
   </p>
 
   <nav>
