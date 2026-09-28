@@ -54,11 +54,11 @@ const KEYWORDS = {
 };
 
 const REPLY = {
-  welcome:  'Daily Encouragement Messages: You are now subscribed to 3 encouragement messages per day. Msg & data rates may apply. Reply HELP for help, STOP to cancel.',
-  already:  'Daily Encouragement Messages: You are already subscribed. Reply STOP to cancel, HELP for help.',
-  stopped:  'Daily Encouragement Messages: You are unsubscribed and will receive no further messages. Reply START to rejoin.',
-  help:     'Daily Encouragement Messages: 3 encouragement messages per day. Contact jflasak@gmail.com. Msg & data rates may apply. Reply STOP to cancel.',
-  fallback: 'Daily Encouragement Messages: text HAPPY to subscribe to 3 encouragement messages a day. Msg & data rates may apply. Reply HELP for help.',
+  welcome:  'Daily Encouragement Messages by Send Happy: You are now subscribed to 3 encouragement messages per day. Msg & data rates may apply. Reply HELP for help, STOP to cancel.',
+  already:  'Daily Encouragement Messages by Send Happy: You are already subscribed. Reply STOP to cancel, HELP for help.',
+  stopped:  'Daily Encouragement Messages by Send Happy: You are unsubscribed and will receive no further messages. Reply START to rejoin.',
+  help:     'Daily Encouragement Messages by Send Happy: 3 encouragement messages per day. Contact jflasak@gmail.com. Msg & data rates may apply. Reply STOP to cancel.',
+  fallback: 'Daily Encouragement Messages by Send Happy: text HAPPY to subscribe to 3 encouragement messages a day. Msg & data rates may apply. Reply HELP for help.',
 };
 
 // ---------------------------------------------------------------------------
